@@ -24,9 +24,10 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <nav>
-          <ul className="flex">
-            <li><Link href="/About">About</Link></li>
-            <li><Link href="/home">Home</Link></li>
+          <ul className="flex justify-center items-center gap-10">
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/about/onnopage">Onnopage</Link></li>
           </ul>
         </nav>
         {children}
