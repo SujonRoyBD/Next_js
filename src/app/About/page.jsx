@@ -6,7 +6,7 @@ const About = () => {
    <main>
     <AboutLayout/>
      <div>
-      sujon roy
+      sujon vai dada
     </div>
    </main>
   )
