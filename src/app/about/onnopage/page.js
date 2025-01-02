@@ -2,7 +2,7 @@ import React from 'react';
 
 const Onnopage = () => {
     return (
-        <div>
+        <div>   
             this is pageff
         </div>
     );

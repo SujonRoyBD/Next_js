@@ -1,6 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Footer from "./shared/footer";
+import Navbar from "./shared/Navbar";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,12 +28,15 @@ export default function RootLayout({ children }) {
       >
         <nav>
           <ul className="flex justify-center items-center gap-10">
-            <li><Link href="/">Home</Link></li>
+            {/* <li><Link href="/">Home</Link></li>
             <li><Link href="/about">About</Link></li>
-            <li><Link href="/about/onnopage">Onnopage</Link></li>
+            <li><Link href="/about/onnopage">Onnopage</Link></li> */}
+            <li><Link href="/footer">About</Link></li>
           </ul>
         </nav>
+        <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
