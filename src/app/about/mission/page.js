@@ -9,7 +9,7 @@ const MissionPaege = () => {
     return (
         <div className='gap-9'>
             
-            <div>mission</div>
+            <div>Division page</div>
            
            
         </div>
