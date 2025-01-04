@@ -1,9 +1,10 @@
 import React from 'react';
+import MissionPaege from './about/mission/page';
 
 const Notfound = () => {
     return (
         <div>
-            not server this pagellll
+            <MissionPaege/>
         </div>
     );
 };

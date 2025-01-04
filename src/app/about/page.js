@@ -5,7 +5,7 @@ const AboutPage = () => {
    
     return (
         <div>
-            about page
+            
             <nav>
           <ul className="flex justify-center items-center gap-10">
             <li><Link href="/about/mission">Mission</Link></li>

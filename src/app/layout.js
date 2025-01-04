@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
             {/* <li><Link href="/">Home</Link></li>
             <li><Link href="/about">About</Link></li>
             <li><Link href="/about/onnopage">Onnopage</Link></li> */}
-            <li><Link href="/footer">About</Link></li>
+            {/* <li><Link href="/footer">About</Link></li> */}
           </ul>
         </nav>
         <Navbar/>
